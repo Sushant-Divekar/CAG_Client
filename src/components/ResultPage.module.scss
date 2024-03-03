@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.circle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(230, 247, 255, 1);
+    border-radius: 50%;
+    z-index: -2;
+    margin-top: 20%;
+    margin-left: -10%;
+    pointer-events: none;
+}
+
+.rectangle{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(230, 247, 255, 1);
+    border-radius: 10%;
+    margin-top: 5%;
+    margin-left: 80%;
+    z-index: -2;
+    transform: rotate(339deg);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 30px;
+    margin-top: 5%;
+}
+
+.top_Heading{
+    display: flex;
+    justify-content: center;
+}
+
+.collegePrompt{
+    height: 76px;
+    width: 450px;
+    border-radius: 25px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.245);
+}
+
+.result_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.result_row{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.result{
+    height: 85px;
+    width: 480px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.245);
+}
